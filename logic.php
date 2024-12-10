@@ -39,9 +39,13 @@
     foreach ($filtered_data as $data) {
         $rata_rata = ($data['nilai_pertama'] + $data['nilai_kedua']) / 2;
         $total_nilai = $data['nilai_pertama'] + $data['nilai_kedua'];
-        $status = $total_nilai > 150 ? '<span class="status-lulus">LULUS</span>' : '<span class="status-tidak-lulus">TIDAK LULUS</span>';
+        $status_lulus= $total_nilai > 150;
 
-        echo '<tr>
+        $row_class = $status_lulus ? 'row-lulus' : 'row-tidak-lulus';
+        $status = $status_lulus ? '<span class="status-lulus">LULUS</span>' : '<span class="status-tidak-lulus">TIDAK LULUS</span>';
+        
+
+        echo '<tr class="' . $row_class . '">
                 <td>' . $no++ . '</td>
                 <td>' . $data['nama_mahasiswa'] . '</td>
                 <td>' . $data['program_studi'] . '</td>

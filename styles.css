@@ -39,18 +39,20 @@
             background-color: #deb261;
             color: rgb(6, 6, 6);
         }
-        table tr:nth-child(2) {
-            background-color: #8dfe64;
-        }
-        table tr:nth-child(5) {
-            background-color: #8dfe64;
-        }
         table tr:hover {
             background-color: #ddd;
         }
-        .status-lulus {
-            color: rgb(11, 12, 11);
+        .status-lulus{
+            columns: rgb(250, 255, 250);
         }
-        .status-tidak-lulus {
+        .status-tidak-lulus{
+            color: #0a0a0a;
+        }
+        .row-lulus{
+            color: rgb(11, 12, 11);
+            background: #58fe1b;
+        }
+        .row-tidak-lulus {
             color: rgb(14, 13, 13);
+            background-color: #9fae99;
         }
