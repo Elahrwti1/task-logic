@@ -1,0 +1,52 @@
+body{
+    font-family: arial, sans-serif;
+    margin: 20px;
+    background-color: #f9f9f9;
+}
+h1{
+    text-align: center;
+    color: #333;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+}
+th,td{
+    border: 1px solid #080707;
+    text-align: center;
+}
+th {
+    background-color: rgb(210, 171, 87);
+    color: rgb(7, 5, 5);
+}
+
+td:nth-child(2){
+    text-align: left;
+}
+td:nth-child(3){
+    text-align: left;
+}
+td:nth-child(4){
+    text-align: right;
+}
+td:nth-child(5){
+    text-align: right;
+}
+td:nth-child(7){
+    text-align: right;
+}
+tr:nth-child(1){
+    background-color: #5df25a;
+}
+tr:nth-child(4){
+    background-color: #5df25a;
+}
+.lulus{
+    background-color: #3e323e;
+    font-weight: bold;
+}
+.tidak-lulus {
+    background-color: #ff4299;
+    font-weight: bold;
+}
