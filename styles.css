@@ -1,52 +1,56 @@
-body{
-    font-family: arial, sans-serif;
-    margin: 20px;
-    background-color: #f9f9f9;
-}
-h1{
-    text-align: center;
-    color: #333;
-}
-table{
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 30px;
-}
-th,td{
-    border: 1px solid #080707;
-    text-align: center;
-}
-th {
-    background-color: rgb(210, 171, 87);
-    color: rgb(7, 5, 5);
-}
 
-td:nth-child(2){
-    text-align: left;
-}
-td:nth-child(3){
-    text-align: left;
-}
-td:nth-child(4){
-    text-align: right;
-}
-td:nth-child(5){
-    text-align: right;
-}
-td:nth-child(7){
-    text-align: right;
-}
-tr:nth-child(1){
-    background-color: #5df25a;
-}
-tr:nth-child(4){
-    background-color: #5df25a;
-}
-.lulus{
-    background-color: #3e323e;
-    font-weight: bold;
-}
-.tidak-lulus {
-    background-color: #ff4299;
-    font-weight: bold;
-}
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            margin-left: 0;
+            background-color: #f9f9f9;
+        }
+        h1{
+            text-align: center;
+        }
+        table {
+            width: 99%;
+            border-collapse: collapse;
+            margin: 5px 10px ;
+            background-color: #ffffff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        table th, table td {
+            padding: 8px;
+            text-align: center;
+            border: 1px solid #0a0909;
+        }
+        table td:nth-child(2){
+            text-align: left;
+        }
+        table td:nth-child(3){
+            text-align: left;
+        }
+        table td:nth-child(4){
+            text-align: right;
+        }
+        table td:nth-child(5){
+            text-align: right;
+        }
+        table td:nth-child(7){
+            text-align: right;
+        }
+        table th {
+            background-color: #deb261;
+            color: rgb(6, 6, 6);
+        }
+        table tr:nth-child(2) {
+            background-color: #8dfe64;
+        }
+        table tr:nth-child(5) {
+            background-color: #8dfe64;
+        }
+        table tr:hover {
+            background-color: #ddd;
+        }
+        .status-lulus {
+            color: rgb(11, 12, 11);
+        }
+        .status-tidak-lulus {
+            color: rgb(14, 13, 13);
+        }
